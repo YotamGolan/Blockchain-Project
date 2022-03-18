@@ -18,6 +18,7 @@ This application was developed as a course project for CS 295 Blockchain Systems
 
 `messaging_app.sol` contains the main code for the project. It contains the smart contracts for storage, the central contract, the sender, and receiver contracts.  
 
+`messaging_app_optimizations.sol` contains code created for preliminary experiments regarding cost optimizations.
 
 
 ## Deployment
