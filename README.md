@@ -48,10 +48,13 @@ The following instructions delineate how to deploy all four of the Smart Contrac
 8. Finally, we will deploy the Receiver smart contract. Select Receiver from the Contract dropdown menu. Paste the centralContract memory address into the `smart_contract_address` parameter, and then paste the encryption public key into the `public_key_` parameter. (Ensure that the key is surrounded by quotation marks, since it is a string parameter.) Then press Transact. Ensure that the Receiver smart contract is listed under Deployed Contracts. 
 
 
-
 ## Sending and Receiving Messages
 
+### Register Sender and Receiver Public Key to Central Contract
+We now need to officially register the Sender and Receiver contracts to the central contract. 
+To do this, simply call `create_user` from the respective Sender and Receiver contracts under the list of Deployed Contracts. 
 Now that the main contracts have been deployed, we can send and receive messages between the existing users in the system. 
+
 
 #### Sending Messages
 
