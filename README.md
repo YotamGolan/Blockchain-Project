@@ -56,7 +56,7 @@ To do this, simply call `create_user` from the respective Sender and Receiver co
 Now that the main contracts have been deployed, we can send and receive messages between the existing users in the system. 
 
 
-#### Sending Messages
+### Sending Messages
 
 1. First, under the deployed Sender contract, we will call the `get_public_key` function. Paste in the memory address from the Receiver contract. Press transact, and observe the response in the console. 
 
@@ -65,6 +65,6 @@ Now that the main contracts have been deployed, we can send and receive messages
 2. Then, on your own local machine, use the obtained public key to encrypt the message.
 3. Paste the receiver's memory address into the `receiver` parameter, and paste the encrypted message into the `message` parameter. Press transact. 
 
-#### Receiving Messages 
+### Receiving Messages 
 
 1. Now, transact the `get_message` function on the Receiver deployed contract. Observe the response in the console. Use the private key to decrypt the message. ![receiver](assets/receiver.png)
